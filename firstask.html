@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FirstTask
+        </title>
+        <style>
+            #h{
+                padding-top: -20px;
+                padding-left: 40px;
+            }
+            #first{
+                padding-left: 100px;
+            }
+            #b
+            {
+                border: 1px solid black;
+                margin-right: 450px;
+                margin-left: 550px;
+                margin-bottom: 30px;
+  
+            }
+        </style>
+    </head>
+    <body id="b">
+        <form>
+        <h1 id="h">Personal Information</h1>
+        <div id="first">
+            <label for="fname">First Name:</label>&nbsp; &nbsp; &nbsp; &nbsp; 
+            <input type="text" id="fname" name="fname">   <br> <br> 
+            <label for="lname">Last Name:</label>&nbsp; &nbsp; &nbsp; &nbsp; 
+            <input type="text" id="lname" name="lname">   <br><br> 
+            <label for="date" >Date Of Birth:</label> &nbsp;
+          
+           <select name="Select" >
+            <option>DAY</option>
+            </select> &nbsp; &nbsp; 
+            <select name="Select" >
+                <option>MONTH</option>
+                </select>&nbsp; &nbsp; 
+                <select name="Select" >
+                    <option>YEAR</option>
+                    </select><br><br>
+            <label for="date">Gender:</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <select name="Select"style="width:40%;" >
+                <option>Choose An Gender</option>
+                <option value="f">Female</option>
+                <option value="m">Male</option>
+             </select>
+        </div>
+        <h1 id="h">Account Information</h1>
+        <div id="first">
+            <label for="Email">Email:</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <input type="email" id="email" name="email"><br>
+                                           <pre>(Your email address will be your username)</pre>
+            <label for="rtemail">Re-type Email:</label>&nbsp; &nbsp; &nbsp; 
+            <input type="email" id="rtemail" name="rtemail">   <br><br> 
+            <label for="pass" >Password</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <input type="password" id="pass" name="pass">   <br>
+            <pre>(Min 8 Characters .1 number,case sensitive)</pre>
+            <label for="rtpass" >Re-type Password:</label> 
+            <input type="password" id="rtpass" name="rtpass">   <br><br> 
+            <label for="sq">security Question:</label> 
+            <select name="Select" style="width:46%;">&nbsp; &nbsp; 
+                <option>Choose a security question</option>
+                <option value="b">What Is your favorite book?</option>
+                <option value="m">What is your mother's maiden name?</option>
+             </select><br><br>
+             <label for="answer">Security Answer:</label>
+            <input type="answer" id="answer" name="answer">
+            <pre>(no case-sensitive)</pre>
+           
+        </div>
+        <h1 id="h">Contact Information</h1>
+        <div id="first">
+            <label for="add">Address:</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="add" name="Address">   <br> <br> 
+            <label for="City">City:</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="city" name="city">   <br><br> 
+            <label for="st">State</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <select name="Select" style="width:50%;">
+                <option>Choose a state</option>
+                <option value="b">Gujrat</option>
+                <option value="m">Mp</option>
+             </select><br><br>
+             <label for="zcode">Zipe Code:</label>&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp;  
+            <input type="text" id="zcode" name="zcode">   <br> <br> 
+            <label for="pno">Phone:</label>&nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; 
+            <input type="text" id="mno" name="mno"> 
+            <select name="Select" >
+                <option>Mobile</option>
+                </select><br>
+                <pre>(No spaces or dashes)</pre>
+               
+        </div>
+    </form>
+    </body>
+</html>
